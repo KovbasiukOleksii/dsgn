@@ -102,7 +102,7 @@ body {
     margin: 7% 0 3% 0;
 }
 .social_header a {
-    padding-right: 5px;
+    margin-right: 5px;
 }
 .infoMenu {
     grid-area: b;
@@ -454,7 +454,6 @@ body {
 }
 .timeLine a:hover {
     color: blue;
-    font-size: 19px;
     transition: .5s;
 }
 .studio_bg {
@@ -557,9 +556,12 @@ body {
     }   
 }
 .staff_cv {
-    margin-top: 10px;
+    margin-top: 5px;
     font-weight: bold;
     line-height: 1;
+}
+.staff_cv p {
+    margin-bottom: 10px;
 }
 .staff_cv a:nth-child(n+6) {
    float:  right;
@@ -614,6 +616,10 @@ body {
     font-size: 12px;
 }
 .foto_info-foto {
+    width: 100%;
+}
+.foto_marius-proin {
+    box-sizing: border-box;
     width: 100%;
 }
 @media (max-width: 414px) { 
